@@ -1,0 +1,38 @@
+{
+  "name": "yugo",
+  "description": "yugo is simple JavaScript utility for conditionally joining objects.",
+  "version": "1.0.0",
+  "author": "Yuta Ide <ide.yuta@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/ideyuta/yugo/issues"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "eslint": "^1.7.2",
+    "eslint-config-kanmu": "^7.0.0",
+    "mocha": "^2.3.0"
+  },
+  "keywords": [
+    "yugo",
+    "object",
+    "join",
+    "merge",
+    "react",
+    "native",
+    "reactnative",
+    "style",
+    "stylesheet",
+    "util",
+    "utility"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ideyuta/yugo.git"
+  },
+  "scripts": {
+    "build": "babel src/index.js -o index.js",
+    "test": "mocha test/index.js --compilers js:babel/register"
+  }
+}
